@@ -1,16 +1,16 @@
-#Signature Authentication System
+# Signature Authentication System
 Welcome to the Signature Authentication System! This Python-based application allows you to compare two signatures to verify their authenticity. Whether you’re working with scanned images or live webcam captures, this tool can help you quickly and easily determine if two signatures match.
 
-##Features
+## Features
 Capture signatures using a webcam: No scanner? No problem! Just sign on a piece of paper, and this app will capture it through your webcam.
 Upload signature images: You can upload images of signatures in .jpeg, .png, or .jpg format.
 Signature comparison: Compare two signatures based on a custom matching algorithm.
 User-friendly interface: Built with Tkinter, this app is easy to use and provides instant feedback on whether the signatures match.
-##How It Works
+## How It Works
 Capture or upload two signatures.
 The app compares them using a custom signature matching algorithm.
 If the similarity between the two signatures exceeds a certain threshold (85%), they are considered a match.
-##Technologies Used
+## Technologies Used
 Python
 Tkinter for the graphical user interface (GUI).
 OpenCV for capturing images from the webcam and handling image processing.
